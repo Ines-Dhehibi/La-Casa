@@ -1,0 +1,137 @@
+html {
+    background-color: rgb(241, 241, 241);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container-flex  {
+    display: flex;
+    gap: 0px; /* lespace entre les items*/
+    flex-direction: row; /*row permet daligner les elements sur une meme ligne*/
+    flex-wrap: wrap; /*wrap permet de passer à la ligne si les elements ne tiennent pas sur une ligne */
+    align-items: center; /*centre des elements sur la ligne */
+    align-content: center;
+}
+
+[class*="col-"] {
+    flex: 1; /* permet de prendre toute la place disponible */
+    padding: 20px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar */
+
+.navigation {
+    padding: 40px;
+    background-color: #0004;
+}
+
+.navbar-nav > li{
+    padding:30px;
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    padding-left: 150px;
+}
+/* fin navbar */
+
+/* grande image */
+
+#turquie {
+    width:100%;
+}
+
+.grandeimage {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}
+.grandeimage h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    text-shadow: rgb(32, 32, 32) 0.1em 0.1em 0.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* fin grande image */
+
+/* banniere */
+
+.banniere1 {
+    background-color: #3a688e;
+    color: #a6c4dc;
+    padding: 30px;
+    font-size: 1.2em;
+    padding-left: 170px;
+}
+
+/* fin banniere */
+
+/* hotel */
+
+.containerfluid {
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 100px;
+}
+.container-flex .maison img {
+    width: 100%;
+}
+
+.containerfluid .container-flex .maison {
+    overflow: hidden;
+    position: relative;
+  }
+.containerfluid .container-flex .maison .prix {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 3px 9px 3px 9px;
+    background-color: aliceblue; 
+    border-radius: 3px;   
+}
+
+/* hotel */
+
+/* fin hotel */
+
+/*footer*/
+
+footer {
+    background-color: #3a688e;
+    color: #a6c4dc;
+}
+
+.myfooter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.copyright {
+    border-top: 3px solid #a6c4dc;
+    padding: 20px;
+    text-align: center;
+}
+
+/*fin footer */

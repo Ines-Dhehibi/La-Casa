@@ -1,0 +1,41 @@
+.containerfluid {
+    .container-flex {
+        .maison1 {
+            overflow: hidden;
+            position: relative;
+
+            .prix {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                color: white;
+                font-size: 1em;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.grandeimage {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        font-size: 5em;
+        text-align: center;
+        transform: translate(-50%, 50%);
+    }
+}
+
+.containerfluid {
+    .container-flex {
+        .maison {
+            
+        }
+    }
+}
